@@ -1,0 +1,277 @@
+
+
+.topnav-space {
+  background-color: linear-gradient(-89.99, #2498f4, #1d85d8);
+  height: 30px;
+}
+
+.topnav-mini {
+  background-color: linear-gradient(-89.99, #2498f4, #1d85d8);
+  height: 30px;
+}
+
+.topnav-buttons {
+  background-color: linear-gradient(-89.99, #2498f4, #1d85d8);
+  height: 30px;
+}
+
+.header-space {
+  background-color: yellow;
+  height: 90px;
+}
+
+.header-main {
+  background-color: green;
+  height: 90px;
+}
+
+.dash {
+  background-color: red;
+  height: 50px;
+  text-align: center;
+}
+
+.container-task {
+  width: 33%;
+  background-color: orange;
+  height: 150px;
+  float: left;
+}
+
+.container-analytics {
+  width: 66%;
+  background-color: brown;
+  height: 180px;
+  float: right;
+}
+
+.container-rec {
+  width: 33%;
+  background-color: gray;
+  height: 300px;
+  float: left;
+}
+
+.container-contacts {
+  width: 66%;
+  background-color: teal;
+  height: 170px;
+  float: right;
+}
+
+.container-callout {
+  width: 66%;
+  background-color: violet;
+  height: 100px;
+  float: right;
+}
+
+.container-ads {
+  width: 100%;
+  background-color: blue;
+  height: 200px;
+  float: left;
+}
+
+.container-ad1 {
+  width: 33%;
+  background-color: white;
+  height: 150px;
+  margin: 25px 0;
+  float: left;
+}
+
+.container-ad2 {
+  width: 33%;
+  background-color: white;
+  height: 150px;
+  margin: 25px 0;
+  float: left;
+}
+
+.container-ad3 {
+  width: 33%;
+  background-color: white;
+  height: 150px;
+  margin: 25px 0;
+  float: left;
+}
+
+.container-foot1 {
+  width: 33%;
+  height: 30px;
+  float: left;
+  padding: none;
+  margin-top: 20px;
+  background-color: gray;
+}
+
+.container-foot2 {
+  width: 33%;
+  height: 30px;
+  float: left;
+  padding: none;
+  margin-top: 20px;
+  background-color: gray;
+}
+
+.container-foot3 {
+  width: 33%;
+  height: 30px;
+  float: left;
+  padding: none;
+  margin-top: 20px;
+  background-color: gray;
+}
+
+.grad-1 {
+  background: #2498f4; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-89.99, #2498f4, #1d85d8); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-89.99, #2498f4, #1d85d8); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-89.99, #2498f4, #1d85d8); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-89.99, #2498f4, #1d85d8); /* Standard syntax */
+}
+/*https://www.w3schools.com/css/css3_gradients.asp*/
+
+@media screen and (max-width: 640px) {
+
+        .no-mobile {
+            display:none;
+        }
+        /* "no-mobile" idea from: https://stackoverflow.com/questions/17762354/remove-element-for-certain-screen-sizes*/
+
+        .full-mobile {
+          width: 100%;
+        }
+
+        .topnav-mini {
+          background-color: purple;
+          height: 30px;
+          width: 50%;
+          float: left;
+        }
+
+        .topnav-buttons {
+          background-color: pink;
+          height: 30px;
+          width: 50%;
+          float: left;
+        }
+
+        .dash {
+          background-color: red;
+          height: 50px;
+          text-align: center;
+          width: 50%;
+          float: left;
+        }
+
+        .mobile-bar1 {
+          width: 30%;
+          float: left;
+        }
+
+        .mobile-bar2 {
+          width: 60%;
+          float: left;
+        }
+
+        .mobile-bar3 {
+          width: 10%;
+          float: left;
+        }
+
+        .container-task {
+          width: 100%;
+          background-color: orange;
+          height: 150px;
+          float: left;
+        }
+
+        .container-analytics {
+          width: 100%;
+          background-color: brown;
+          height: 180px;
+          float: right;
+        }
+
+        .container-rec {
+          width: 100%;
+          background-color: gray;
+          height: 300px;
+          float: left;
+        }
+
+        .container-contacts {
+          width: 100%;
+          background-color: teal;
+          height: 170px;
+          float: right;
+        }
+
+        .container-callout {
+          width: 100%;
+          background-color: violet;
+          height: 100px;
+          float: right;
+        }
+
+        .container-ads {
+          width: 100%;
+          background-color: blue;
+          height: 500px;
+          float: left;
+        }
+
+        .container-ad1 {
+          width: 100%;
+          background-color: white;
+          height: 150px;
+          margin: 25px 0;
+          float: left;
+        }
+
+        .container-ad2 {
+          width: 100%;
+          background-color: white;
+          height: 150px;
+          margin: 25px 0;
+          float: left;
+        }
+
+        .container-ad3 {
+          width: 100%;
+          background-color: white;
+          height: 150px;
+          margin: 25px 0;
+          float: left;
+        }
+
+        .container-foot1 {
+          width: 100%;
+          height: 30px;
+          float: left;
+          padding: none;
+          margin-top: 20px;
+          background-color: gray;
+        }
+
+        .container-foot2 {
+          width: 50%;
+          height: 30px;
+          float: left;
+          padding: none;
+          margin-top: 20px;
+          background-color: gray;
+        }
+
+        .container-foot3 {
+          width: 50%;
+          height: 30px;
+          float: left;
+          padding: none;
+          margin-top: 20px;
+          background-color: gray;
+        }
+
+}

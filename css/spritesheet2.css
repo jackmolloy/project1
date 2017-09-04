@@ -1,0 +1,111 @@
+/*ICON EXAMPLE*/
+/*<i class="sprite sprite-3-blue"></i>*/
+
+
+.sprite {
+    background-image: url(/mj487/project1/spritesheet2.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-3-blue {
+    width: 69px;
+    height: 45px;
+    background-position: -5px -5px;
+}
+
+.sprite-3-gray {
+    width: 69px;
+    height: 45px;
+    background-position: -84px -5px;
+}
+
+.sprite-32-blue {
+    width: 69px;
+    height: 45px;
+    background-position: -163px -5px;
+}
+
+.sprite-32-gray {
+    width: 69px;
+    height: 45px;
+    background-position: -5px -60px;
+}
+
+.sprite-36-blue {
+    width: 69px;
+    height: 45px;
+    background-position: -84px -60px;
+}
+
+.sprite-36-blue-2 {
+    width: 69px;
+    height: 45px;
+    background-position: -163px -60px;
+}
+
+.sprite-36-gray {
+    width: 69px;
+    height: 45px;
+    background-position: -5px -115px;
+}
+
+.sprite-36-gray-2 {
+    width: 69px;
+    height: 45px;
+    background-position: -84px -115px;
+}
+
+.sprite-four-gray {
+    width: 41px;
+    height: 42px;
+    background-position: -163px -115px;
+}
+
+.sprite-four-green {
+    width: 41px;
+    height: 42px;
+    background-position: -163px -167px;
+}
+
+.sprite-one-gray {
+    width: 41px;
+    height: 42px;
+    background-position: -242px -5px;
+}
+
+.sprite-one-green {
+    width: 41px;
+    height: 42px;
+    background-position: -242px -57px;
+}
+
+.sprite-settings {
+    width: 69px;
+    height: 45px;
+    background-position: -214px -115px;
+}
+
+.sprite-three-gray {
+    width: 41px;
+    height: 42px;
+    background-position: -5px -170px;
+}
+
+.sprite-three-green {
+    width: 41px;
+    height: 42px;
+    background-position: -56px -170px;
+}
+
+.sprite-two-gray {
+    width: 41px;
+    height: 42px;
+    background-position: -107px -170px;
+}
+
+.sprite-two-green {
+    width: 41px;
+    height: 42px;
+    background-position: -214px -170px;
+}

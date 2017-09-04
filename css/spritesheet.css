@@ -1,0 +1,77 @@
+.sprite {
+    background-image: url(/images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-analytics-blue {
+    width: 88px;
+    height: 94px;
+    background-position: -5px -5px;
+}
+
+.sprite-analytics-green {
+    width: 88px;
+    height: 94px;
+    background-position: -103px -5px;
+}
+
+.sprite-customer-blue {
+    width: 88px;
+    height: 94px;
+    background-position: -201px -5px;
+}
+
+.sprite-customer-green {
+    width: 88px;
+    height: 94px;
+    background-position: -5px -109px;
+}
+
+.sprite-dash-blue {
+    width: 88px;
+    height: 94px;
+    background-position: -103px -109px;
+}
+
+.sprite-dash-green {
+    width: 88px;
+    height: 94px;
+    background-position: -201px -109px;
+}
+
+.sprite-messages-blue {
+    width: 88px;
+    height: 94px;
+    background-position: -5px -213px;
+}
+
+.sprite-messages-green {
+    width: 88px;
+    height: 94px;
+    background-position: -103px -213px;
+}
+
+.sprite-page-blue {
+    width: 88px;
+    height: 94px;
+    background-position: -201px -213px;
+}
+
+.sprite-page-green {
+    width: 88px;
+    height: 94px;
+    background-position: -299px -5px;
+}
+
+.sprite-promotions-blue {
+    width: 88px;
+    height: 94px;
+    background-position: -299px -109px;
+}
+
+.sprite-promotions-green {
+    width: 88px;
+    height: 94px;
+    background-position: -299px -213px;
+}
