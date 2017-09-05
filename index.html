@@ -8,10 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/spritesheet.css">
+    <link rel="stylesheet" href="css/spritesheet2.css">
 
   </head>
   <body>
 
+    <!-- TOP NAV -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-8 topnav-space no-mobile grad-1">
@@ -24,59 +27,167 @@
           <p>help and settings icons here</p>
         </div>
       </div>
+
+      <!-- HEADER -->
       <div class="row">
-        <div class="col-md-3 header-space no-mobile">
-
+        <div class="col-md-3 header-space no-mobile grad-2">
         </div>
-        <div class="col-md-6 header-main">
-          <h2>all of the beautiful icons will go here</h2>
+        <div class="col-md-6 header-main pattern-bg">
+          <div class="wrapper">
+            <ul>
+              <li><i class="sprite sprite-analytics-blue"></i></li>
+              <li><i class="sprite sprite-customer-blue"></i></li>
+              <li><i class="sprite sprite-dash-blue"></i></li>
+              <li><i class="sprite sprite-messages-blue"></i></li>
+              <li><i class="sprite sprite-page-blue"></i></li>
+              <li><i class="sprite sprite-promotions-blue"></i></li>
+            </ul>
+          </div>
         </div>
-        <div class="col-md-3 header-space no-mobile">
-
+        <div class="col-md-3 header-space no-mobile grad-3">
         </div>
       </div>
     </div>
 
+    <!-- CHEVRON BAR -->
+    <div class="row">
+      <div class="col-md-3 no-mobile">
+
+      </div>
+      <div class="col-md-6">
+        <div class="wrapper">
+          <ul>
+            <li><img src="images/chevron.png" alt="white-arrow"></li>
+            <li><img src="images/chevron-space.png" alt="space"></li>
+            <li><img src="images/chevron-space.png" alt="space"></li>
+            <li><img src="images/chevron-space.png" alt="space"></li>
+            <li><img src="images/chevron-space.png" alt="space"></li>
+            <li><img src="images/chevron-space.png" alt="space"></li>
+          </ul>
+        </div>
+    </div>
+    <div class="col-md-3 no-mobile">
+
+    </div>
+    </div>
+
+
+    <!-- DASHBOARD -->
     <div class="container">
       <div class="row">
-        <div class="col-md-4 dash">
-          <p>Dashboard</p>
+        <div class="col-md-4 dash dash-left">
+          <h1>Dashboard</h1>
         </div>
         <div class="col-md-4 dash no-mobile">
 
         </div>
-        <div class="col-md-4 dash">
-          <p>search form here</p>
+        <div class="col-md-4 dash dash-right">
+          <form class="navbar-form" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" name="srch-term" id="srch-term">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 mobile-bar1">
-          <p>announcements</p>
+
+    <!-- TEXT BAR -->
+    <!-- GRAD BG START -->
+    <div class="container container-grad">
+      <div class="row text-bar">
+        <div class="container-text mobile-bar1">
+          <p><span class="announce">ANNOUNCEMENTS</span></p>
         </div>
-        <div class="col-md-8 mobile-bar2">
+        <div class="container-text-2 mobile-bar2">
           <p>all of this text will make sense later, i promise.. don't be stressed!</p>
         </div>
-        <div class="col-md-1 mobile-bar3">
+        <div class="container-text-3 mobile-bar3">
           <p>BUTTONS</p>
         </div>
       </div>
+
+      <!-- TASK MENU -->
       <div class="conatiner container-task">
-          <h3>task menu will be here (UL maybe or 5 rows with col-9 and col-3?)</h3>
+          <div class="row">
+            <div class="col-md-4">
+              <h1 class="tasks">Tasks</h1>
+            </div>
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4 settings-icon">
+              <i class="sprite2 sprite-settings"></i>
+            </div>
+          </div>
+          <div class="row task-row">
+            <div class="col-md-2">
+              <i class="sprite2 sprite-one-green"></i>
+            </div>
+            <div class="col-md-6 task-text-box">
+              <p class="task-text">Welcome Contacts</p>
+            </div>
+            <div class="col-md-4">
+              <i class="sprite2 sprite-32-blue"></i>
+            </div>
+          </div>
+          <div class="row task-row">
+            <div class="col-md-2">
+              <i class="sprite2 sprite-two-gray"></i>
+            </div>
+            <div class="col-md-6 task-text-box">
+              <p class="task-text2">Provide Responses</p>
+            </div>
+            <div class="col-md-4">
+              <i class="sprite2 sprite-36-gray"></i>
+            </div>
+          </div>
+          <div class="row task-row">
+            <div class="col-md-2">
+              <i class="sprite2 sprite-three-gray"></i>
+            </div>
+            <div class="col-md-6 task-text-box">
+              <p class="task-text2">Review Activity</p>
+            </div>
+            <div class="col-md-4">
+              <i class="sprite2 sprite-36-gray-2"></i>
+            </div>
+          </div>
+          <div class="row task-row">
+            <div class="col-md-2">
+              <i class="sprite2 sprite-four-gray"></i>
+            </div>
+            <div class="col-md-6 task-text-box">
+              <p class="task-text2">Reach Out</p>
+            </div>
+            <div class="col-md-4">
+              <i class="sprite2 sprite-3-gray"></i>
+            </div>
+          </div>
       </div>
+
+      <!-- ANALTICS SECTION -->
       <div class="container container-analytics">
           <p>analytics and tables go be here (multiple rows with containers included in them?)</p>
       </div>
+
+      <!-- RECOMMENDATIONS SECTION -->
       <div class="container container-rec">
         <p>5 rows with hover states or a list/menu?</p>
       </div>
+
+      <!-- CONTACTS SECTION -->
       <div class="container container-contacts">
         <p>the beautiful contacts boxes will go here (BOTH so might need two more containers inside this)</p>
       </div>
+
+      <!-- 'DID YOU KNOW' SECTION -->
       <div class="container container-callout">
         <p>did you know box goes here (col-2 col-8 col-2 layout with images on the two outside cols?)</p>
       </div>
+
+      <!-- ADS SECTION -->
       <div class="container container-ads">
         <div class="container-ad1">
           <p>add another container with white rounded box and then put pic above</p>
@@ -88,6 +199,11 @@
           <p>add another container with white rounded box and then put pic above</p>
         </div>
       </div>
+
+      <!-- GRAD BG END -->
+      </div>
+
+      <!-- FOOTER -->
       <div class="container container-foot1">
         <div class="row">
           <div class="col-md-4">

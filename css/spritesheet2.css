@@ -1,9 +1,8 @@
 /*ICON EXAMPLE*/
 /*<i class="sprite sprite-3-blue"></i>*/
 
-
-.sprite {
-    background-image: url(/mj487/project1/spritesheet2.png);
+.sprite2 {
+    background-image: url(../spritesheet2.png);
     background-repeat: no-repeat;
     display: block;
 }
