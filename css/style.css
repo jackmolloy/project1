@@ -37,6 +37,16 @@ h1.tasks {
   margin-bottom: 10px;
 }
 
+h1.recommendations {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 32px;
+  color: #2498f3;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 
 /*TOP NAV*/
 .topnav-space {
@@ -54,24 +64,11 @@ h1.tasks {
   height: 30px;
 }
 
+.top-nav-bg {
+  background-image: url(../images/top-nav-bg.png);
+}
 
 /*HEADER AND ICONS*/
-.header-space {
-  background-color: yellow;
-  height: 118px;
-}
-
-.header-main {
-  background: repeating-linear-gradient(
-    -55deg,
-    #0f416f,
-    #0f416f 5px,
-    #194b74 5px,
-    #194b74 5px
-  );
-  height: 118px;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -100,6 +97,10 @@ li {
   padding: 2px 5px;
   border: 1px;
 }
+
+.header-bg {
+  background-image: url(../images/header-bg.png);
+}
 /*all "wrapper" code came from: https://stackoverflow.com/questions/1708054/center-ul-li-into-div    */
 
 
@@ -127,7 +128,7 @@ li {
 
 /*TEXT BAR AND GRADIENT BG*/
 .container-grad {
-  background-image: url("/mj487/project1/grad-bg.png");
+  background-image: url(../grad-bg.png);
   width: 100%;
   height: 500px;
   margin-top: 20px;
@@ -223,18 +224,61 @@ li {
 /*ANALYTICS SECTION*/
 .container-analytics {
   width: 66%;
-  background-color: brown;
-  height: 180px;
+  background-color: white;
+  height: 450px;
+  padding-left: 15px;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: thin;
   float: right;
 }
 
-.container-rec {
-  width: 33%;
-  background-color: gray;
-  height: 300px;
+.container-charts {
+  width: 80%;
+  padding-left: 20px;
+  padding-top: 10px;
   float: left;
 }
 
+.container-charts2 {
+  width: 18%;
+  float: right;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
+  border-left-width: medium;
+}
+
+.analytics-text {
+  color: #fe7f13;
+  font-size: 0.8em;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: left;
+}
+
+.main-chart {
+  background-image: url(../images/chart3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 212px;
+  padding-bottom: 30px;
+}
+
+
+/*RECOMMENDATIONS SECTION*/
+.container-rec {
+  width: 33%;
+  background-color: white;
+  height: 300px;
+  float: left;
+  padding-left: 15px;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: thin;
+}
+
+
+
+/*CONTACTS SECTION*/
 .container-contacts {
   width: 66%;
   background-color: teal;
@@ -307,30 +351,7 @@ li {
   background-color: gray;
 }
 
-.grad-1 {
-  background-color: #2498f4; /* For browsers that do not support gradients */
-  background-color: -webkit-linear-gradient(-90deg, #2498f4, #1d85d8); /* For Safari 5.1 to 6.0 */
-  background-color: -o-linear-gradient(-90deg, #2498f4, #1d85d8); /* For Opera 11.1 to 12.0 */
-  background-color: -moz-linear-gradient(-90deg, #2498f4, #1d85d8); /* For Firefox 3.6 to 15 */
-  background-color: linear-gradient(-90deg, #2498f4, #1d85d8); /* Standard syntax */
-}
-/*https://www.w3schools.com/css/css3_gradients.asp*/
 
-.grad-2 {
-  background-color: #134670; /* For browsers that do not support gradients */
-  background-color: -webkit-linear-gradient(right, rgba(19,70,112,1), rgba(19,70,112,0)); /* For Safari 5.1 to 6.0 */
-  background-color: -o-linear-gradient(right, rgba(19,70,112,1), rgba(19,70,112,0)); /* For Opera 11.1 to 12.0 */
-  background-color: -moz-linear-gradient(right, rgba(19,70,112,1), rgba(19,70,112,0)); /* For Firefox 3.6 to 15 */
-  background-color: linear-gradient(right, rgba(19,70,112,1), rgba(19,70,112,0)); /* Standard syntax */
-}
-
-.grad-3 {
-  background-color: #134670; /* For browsers that do not support gradients */
-  background-color: -webkit-linear-gradient(left, rgba(19,70,112,1), rgba(19,70,112,0)); /* For Safari 5.1 to 6.0 */
-  background-color: -o-linear-gradient(left, rgba(19,70,112,1), rgba(19,70,112,0)); /* For Opera 11.1 to 12.0 */
-  background-color: -moz-linear-gradient(left, rgba(19,70,112,1), rgba(19,70,112,0)); /* For Firefox 3.6 to 15 */
-  background-color: linear-gradient(left, rgba(19,70,112,1), rgba(19,70,112,0)); /* Standard syntax */
-}
 
 @media screen and (max-width: 640px) {
 
