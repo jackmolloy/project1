@@ -47,6 +47,26 @@ h1.recommendations {
   margin-bottom: 10px;
 }
 
+h3.contact {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+h4.contact2 {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  margin-left: 72px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
 
 /*TOP NAV*/
 .topnav-space {
@@ -276,16 +296,87 @@ li {
   border-width: thin;
 }
 
+.flex-rec {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
 
 
 /*CONTACTS SECTION*/
 .container-contacts {
   width: 66%;
   background-color: teal;
-  height: 170px;
+  height: 270px;
   float: right;
 }
 
+.container-contact1 {
+  width: 50%;
+  float: left;
+  background-color: yellow;
+  height: 270px;
+}
+
+.container-contact1-mini {
+  width: 60%;
+  margin-left: 20%;
+  background-color: blue;
+  border-radius: 5px;
+  height: 180px;
+  margin-top: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.avatar-pic {
+    width: 78px;
+    height:82px;
+    position: absolute;
+    margin-left: 57px;
+    margin-top: -24px;
+}
+
+.left-ribbon {
+  width: 15px;
+  height: 40px;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -15px;
+}
+
+.right-ribbon {
+  width: 15px;
+  height: 40px;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 192.7px;
+}
+
+.contact-chart {
+  margin-top: 70px;
+  width: 90%;
+}
+
+.contact-bar {
+  width: 100%;
+  margin: 0px;
+  height: 48px;
+  background-color: #2394ee;
+  position: relative;
+  top: 40px;
+  text-align: center;
+}
+
+.contact-space {
+  text-align: center;
+}
+
+/*.contact-space {
+  padding-top: 58px;
+}*/
+
+/*CALLOUT SECTION*/
 .container-callout {
   width: 66%;
   background-color: violet;
