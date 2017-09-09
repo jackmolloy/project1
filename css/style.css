@@ -28,6 +28,23 @@ p.checkbox-text {
   padding-left: 5px;
 }
 
+p.rec-small {
+  color: #999999;
+  font-size: 0.4em;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: left;
+  padding-top: 6px;
+}
+
+p.rec-big {
+  color: #999999;
+  font-size: 0.8em;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: left;
+  padding-top: 0px;
+  margin-top: -4px;
+}
+
 
 h1 {
   font-family: Myriad Pro, sans-serif;
@@ -111,6 +128,26 @@ h4.contact2-orange {
   max-width: 970px;
 }
 
+.no-pad {
+  padding: 0px;
+}
+
+.no-right-pad {
+  padding-right: 0px;
+}
+
+.no-left-pad {
+  padding-left: 0px;
+}
+
+.no-top-pad {
+  padding-top: 0px;
+}
+
+.no-bottom-pad {
+  padding-bottom: 0px;
+}
+
 /*TOP NAV*/
 .topnav-space {
   background-color: linear-gradient(-90deg, #2498f4, #1d85d8);
@@ -178,10 +215,6 @@ li {
   background: url(../spritesheet.png) -5px -109px;
 }
 
-.sprite-dash-blue:hover {
-  background: url(../spritesheet.png) -201px -109px;
-}
-
 .sprite-messages-blue:hover {
   background: url(../spritesheet.png) -103px -213px;
 }
@@ -192,6 +225,10 @@ li {
 
 .sprite-promotions-blue:hover {
   background: url(../spritesheet.png) -299px -213px;
+}
+
+.sprite-analytics-blue:hover {
+  background: url(../spritesheet.png) -103px -5px;
 }
 
 
@@ -519,7 +556,7 @@ input[type="checkbox-1"]:checked:before {
 .container-rec {
   width: 33%;
   background-color: white;
-  height: 300px;
+  height: 585px;
   float: left;
   padding-left: 15px;
   border-style: solid;
@@ -527,10 +564,10 @@ input[type="checkbox-1"]:checked:before {
   border-width: thin;
 }
 
-.flex-rec {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-start;
+.rec-row {
+  border-bottom-style: dotted;
+  border-bottom-color: #eeeeee;
+  border-bottom-width: thin;
 }
 
 
