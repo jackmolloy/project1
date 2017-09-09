@@ -46,6 +46,16 @@ h1.tasks {
   margin-bottom: 10px;
 }
 
+h1.analytics {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 34px;
+  color: #2498f3;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
 h1.recommendations {
   font-family: Myriad Pro, sans-serif;
   font-size: 32px;
@@ -251,9 +261,16 @@ li {
   border-width: thin;
 }
 
+
 .task-row {
   border-bottom: thin solid #eeeeee;
   padding-top: 5px;
+  filter: grayscale(0);
+  transition: .05s ease-in-out;
+}
+
+.task-row:hover {
+  filter: grayscale(1);
 }
 
 .task-text-box {
@@ -289,7 +306,7 @@ li {
 .container-charts {
   width: 80%;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 0px;
   float: left;
 }
 
@@ -302,10 +319,33 @@ li {
 }
 
 .analytics-text {
-  color: #fe7f13;
+  color: #999999;
   font-size: 0.8em;
   font-family: 'Myriad Pro', sans-serif;
   text-align: left;
+  margin-left: 0px;
+}
+
+.analytics-text2 {
+  color: #999999;
+  font-size: 0.8em;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+p.analytics-text2 {
+  color: #999999;
+  font-size: 0.8em;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.pie-chart {
+  margin-left: 10px;
 }
 
 .main-chart {
@@ -374,8 +414,6 @@ input[type="checkbox-1"]:checked:before {
     left: -3px;
     top: -3px;
 }
-
-
 /*http://jsfiddle.net/eliranmal/DwArh/*/
 
 .container-checkboxes {
@@ -416,6 +454,31 @@ input[type="checkbox-1"]:checked:before {
   float: left;
   margin-top: 7px;
 }
+
+.drop_list {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    background: no-repeat #ffffff;
+    border: 1px thin #dddddd;
+    background-image: url(../images/select-arrow.png);
+    background-position: right;
+    padding-right: 10px;
+}
+
+.drop_list select{
+    -webkit-appearance:none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: transparent;
+    padding: 3px;
+    font-size: 1.2em;
+    height: 30px;
+    width: 163px;
+    overflow: hidden;
+    float: right;
+}
+/*https://stackoverflow.com/questions/10651235/how-do-you-add-an-add-image-as-drop-down-arrow*/
 
 /*RECOMMENDATIONS SECTION*/
 .container-rec {
