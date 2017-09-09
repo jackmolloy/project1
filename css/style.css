@@ -166,7 +166,13 @@ li {
 }
 /*all "wrapper" code came from: https://stackoverflow.com/questions/1708054/center-ul-li-into-div    */
 
-
+.chevron {
+  /*vertical-align: top;
+  display: inline-block;*/
+  position: absolute;
+  bottom: 0px;
+  left: 20%;
+}
 
 .sprite-customer-blue:hover {
   background: url(../spritesheet.png) -5px -109px;
@@ -287,12 +293,12 @@ li {
 .task-row {
   border-bottom: thin solid #eeeeee;
   padding-top: 5px;
-  filter: grayscale(0);
+  filter: grayscale(0) opacity(1);
   transition: .05s ease-in-out;
 }
 
 .task-row:hover {
-  filter: grayscale(1);
+  filter: grayscale(1) opacity(0.55);
 }
 /*https://www.w3schools.com/cssref/css3_pr_filter.asp*/
 
@@ -318,7 +324,7 @@ li {
 .container-analytics {
   width: 66%;
   background-color: white;
-  height: 450px;
+  height: 420px;
   padding-left: 15px;
   border-style: solid;
   border-color: #eeeeee;
@@ -382,28 +388,31 @@ p.analytics-text2 {
 .flex-analytics {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap
+  flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 20px;
+  margin-top: 10px;
 }
 
 .flex-analytics-item {
-  width: 100px;
+  width: auto;
   height: 30px;
   margin: 5px;
+  align-items: center;
 
 }
 
-/*input[type="checkbox"] {
+input[type="checkbox"] {
     width: 0;
     height: 0;
     margin: 0;
     border: 0 none;
     padding: 0;
-}*/
+    float: left;
+}
 
 input[type="checkbox"]:before {
     content: url(../images/checkbox.png);
@@ -420,10 +429,10 @@ input[type="checkbox"]:checked:before {
     position: relative;
     left: -3px;
     top: -3px;
-    /*float: left;*/
+    float: left;
 }
 
-input[type="checkbox-1"]:before {
+/*input[type="checkbox-1"]:before {
     content: url(../images/checkbox.png);
     display: block;
     width: 18px;
@@ -436,7 +445,7 @@ input[type="checkbox-1"]:checked:before {
     position: relative;
     left: -3px;
     top: -3px;
-}
+}*/
 /*http://jsfiddle.net/eliranmal/DwArh/*/
 
 .container-checkboxes {
@@ -450,8 +459,8 @@ input[type="checkbox-1"]:checked:before {
   width: 70px;
   height: 16px;
   float: left;
-  margin-top: 7px;
-  margin-left: -8px;
+  margin-top: 1px;
+  margin-left: 23px;
 }
 
 .twitter {
@@ -459,7 +468,8 @@ input[type="checkbox-1"]:checked:before {
   width: 54px;
   height: 16px;
   float: left;
-  margin-top: 7px;
+  margin-top: 1px;
+  margin-left: 23px;
 }
 
 .foursquare {
@@ -467,7 +477,8 @@ input[type="checkbox-1"]:checked:before {
   width: 79px;
   height: 16px;
   float: left;
-  margin-top: 7px;
+  margin-top: 1px;
+  margin-left: 23px;
 }
 
 .google {
@@ -475,7 +486,8 @@ input[type="checkbox-1"]:checked:before {
   width: 62px;
   height: 16px;
   float: left;
-  margin-top: 7px;
+  margin-top: 1px;
+  margin-left: 23px;
 }
 
 .drop_list {
