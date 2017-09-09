@@ -20,6 +20,7 @@ p.task-text2 {
   padding-top: 0px;
 }
 
+
 h1 {
   font-family: Myriad Pro, sans-serif;
   font-size: 36px;
@@ -410,11 +411,48 @@ li {
 /*CALLOUT SECTION*/
 .container-callout {
   width: 66%;
-  background-color: violet;
-  height: 100px;
+  background-color: white;
+  height: 170px;
   float: right;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: thin;
 }
 
+.blue-box {
+  background-color: #2498f4;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 140px;
+}
+
+.callout-back {
+  width: 22px;
+  height: 50px;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 0px;
+}
+
+.callout-next {
+  width: 22px;
+  height: 50px;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 681px;
+}
+
+.callout-text {
+  color: white;
+  font-size: 0.9em;
+  font-family: 'Myriad Pro', sans-serif;
+  padding-top: 19px;
+  padding-left: 80px;
+  margin-bottom: 15px;
+}
+
+/*ADS SECTION*/
 .container-ads {
   width: 100%;
   background-color: blue;
