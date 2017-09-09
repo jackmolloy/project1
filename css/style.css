@@ -67,6 +67,26 @@ h4.contact2 {
   margin-bottom: 3px;
 }
 
+h3.contact-orange {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  margin-left: 44px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+h4.contact2-orange {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  margin-left: 74px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
 
 /*TOP NAV*/
 .topnav-space {
@@ -306,9 +326,12 @@ li {
 /*CONTACTS SECTION*/
 .container-contacts {
   width: 66%;
-  background-color: teal;
-  height: 270px;
+  background-color: white;
+  height: 285px;
   float: right;
+  border-style: solid;
+  border-color: #eeeeee;
+  border-width: thin;
 }
 
 .container-contact1 {
@@ -316,6 +339,15 @@ li {
   float: left;
   background-color: white;
   height: 270px;
+  padding-right: 0px;
+}
+
+.container-contact2 {
+  width: 50%;
+  float: left;
+  background-color: white;
+  height: 270px;
+  padding-left: 0px;
 }
 
 .container-contact1-mini {
@@ -351,7 +383,7 @@ li {
   height: 40px;
   position: absolute;
   margin-top: 45px;
-  margin-left: 193px;
+  margin-left: 201px;
 }
 
 .contact-chart {
