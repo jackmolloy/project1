@@ -455,35 +455,52 @@ li {
 /*ADS SECTION*/
 .container-ads {
   width: 100%;
-  background-color: blue;
-  height: 200px;
+  background-color: #2498f4;
+  height: 224px;
   float: left;
 }
 
 .container-ad1 {
   width: 33%;
-  background-color: white;
-  height: 150px;
-  margin: 25px 0;
+  height: 164px;
+  margin: 30px 0;
   float: left;
+}
+
+.ad1 {
+  width: 284px;
+  height: 164px;
+  border-radius: 7px;
 }
 
 .container-ad2 {
   width: 33%;
-  background-color: white;
-  height: 150px;
-  margin: 25px 0;
+  height: 164px;
+  margin: 20px 0 30px 0px;
   float: left;
+}
+
+.ad2 {
+  width: 284px;
+  height: 164px;
+  border-radius: 7px;
 }
 
 .container-ad3 {
   width: 33%;
-  background-color: white;
-  height: 150px;
-  margin: 25px 0;
+  height: 164px;
+  margin: 30px 0;
   float: left;
 }
 
+.ad3 {
+  width: 284px;
+  height: 164px;
+  border-radius: 7px;
+}
+
+
+/*FOOTER*/
 .container-foot1 {
   width: 33%;
   height: 30px;
