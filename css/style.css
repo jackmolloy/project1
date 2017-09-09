@@ -167,6 +167,28 @@ li {
 /*all "wrapper" code came from: https://stackoverflow.com/questions/1708054/center-ul-li-into-div    */
 
 
+
+.sprite-customer-blue:hover {
+  background: url(../spritesheet.png) -5px -109px;
+}
+
+.sprite-dash-blue:hover {
+  background: url(../spritesheet.png) -201px -109px;
+}
+
+.sprite-messages-blue:hover {
+  background: url(../spritesheet.png) -103px -213px;
+}
+
+.sprite-page-blue:hover {
+  background: url(../spritesheet.png) -299px -5px;
+}
+
+.sprite-promotions-blue:hover {
+  background: url(../spritesheet.png) -299px -213px;
+}
+
+
 /*DASHBOARD*/
 .dash {
   background-color: #33cc66;
@@ -272,6 +294,7 @@ li {
 .task-row:hover {
   filter: grayscale(1);
 }
+/*https://www.w3schools.com/cssref/css3_pr_filter.asp*/
 
 .task-text-box {
   padding-top: 9px;
