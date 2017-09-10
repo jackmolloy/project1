@@ -21,6 +21,81 @@
           float: left;
         }
 
+
+        /*MOBILE DASHBOARD*/
+        /*.sprite-dash-green {
+          transform: scale(0.5);
+        }
+
+        .sprite-customer-blue {
+          transform: scale(0.5);
+        }
+
+        .sprite-messages-blue {
+          transform: scale(0.5);
+        }
+
+        .sprite-page-blue {
+          transform: scale(0.5);
+        }
+
+        .sprite-promotions-blue {
+          transform: scale(0.5);
+        }
+
+        .sprite-analytics-blue {
+          transform: scale(0.5);
+        }*/
+/*
+        ul > li {
+          height: 50px;
+          width: auto;
+        }*/
+
+        .wrapper ul {
+          display: block;
+        }
+
+        .wrapper li {
+          float: left;
+        }
+
+        .header-bg {
+          background-image: none;
+        }
+
+        .mobile-header {
+          padding-top: 10px;
+          padding-left: 10px;
+          padding-right: 0px;
+          width: 118px;
+        }
+
+        .flex-dash {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 430px;
+          margin-top: 30px;
+          background-color: #144770;
+          background-size: cover;
+          border-radius: 5px;
+        }
+
+        .flex-dash-item {
+          width: auto;
+          height: 55px;
+          margin: 5px;
+          align-items: center;
+          background-color: #144770;
+          background-size: cover;
+
+        }
+
         /*.topnav-mini {
           background-color: purple;
           height: 30px;
