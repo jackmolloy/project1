@@ -245,7 +245,7 @@
           padding-right: 23%;
         }
 
-        /*random ad*/
+        /*random mobile ad*/
         .container-ad3 {
           transform: scale(0.8);
           width: 33%;
@@ -259,13 +259,14 @@
         }
 
 
-        /*TASK SECTION*/
+        /*MOBILE TASK SECTION*/
         .mobile-task {
           width: 100%;
           height: 280px;
           float: left;
           position: relative;
           top: 2%;
+          z-index: 104;
         }
 
         .mobile-task-title {
@@ -284,7 +285,144 @@
         }
 
 
-        
+        /*MOBILE ANALYTICS SECTION*/
+        .mobile-analytics {
+          width: 100%;
+          height: 700px;
+          float: left;
+          position: relative;
+          top: 2%;
+          z-index: 105;
+        }
+
+        .mobile-analytics-row {
+          width: 100%;
+          float: left;
+        }
+
+        .mobile-analytics-row2 {
+          width: 40%;
+          float: left;
+        }
+
+        .main-chart {
+          background-image: url(../images/chart-final.png);
+          background-repeat: no-repeat;
+          /*background-size: cover;*/
+          height: 300px;
+          padding-bottom: 30px;
+          transform: scale(0.7);
+        }
+
+
+        /*MOBILE RECOMMENDATIONS SECTION*/
+        .mobile-rec {
+          width: 100%;
+          height: 280px;
+          float: left;
+          position: relative;
+          top: 5%;
+          z-index: 105;
+        }
+
+        .mobile-rec-row {
+          width: 100%;
+          float: left;
+        }
+
+        .mobile-rec-title {
+          width: 100%;
+        }
+
+        .mobile-rec-item {
+          width: auto;
+          float: left;
+          padding-right: 5px;
+        }
+
+        .mobile-rec-item2 {
+          width: 160px;
+          float: right;
+        }
+
+
+        /*MOBILE CONTACTS SECTION*/
+        .mobile-contact {
+          width: 100%;
+          height: 280px;
+          float: left;
+          position: relative;
+          top: 5%;
+          z-index: 106;
+        }
+
+        .mobile-contact-row {
+          width: 100%;
+          float: left;
+        }
+
+
+
+        /*MOBILE CALLOUT SECTION*/
+        .mobile-callout {
+          width: 100%;
+          height: 180px;
+          float: left;
+          position: relative;
+          top: 60%;
+          z-index: 106;
+        }
+
+        .mobile-callout-row {
+          width: 100%;
+          float: left;
+        }
+
+
+
+        /*MOBILE ADS SECTION*/
+        .mobile-ad {
+          width: 100%;
+          height: 280px;
+          float: left;
+          position: relative;
+          top: 50%;
+          z-index: 107;
+        }
+
+        .mobile-ad-row {
+          width: 100%;
+          height: auto;
+          float: left;
+          position: relative;
+          top: 160%;
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+
+        .container-ads {
+          width: 100%;
+          background-color: white;
+          height: 224px;
+          float: left;
+        }
+
+
+        /*MOBILE FOOTER SECTION*/
+        /*.mobile-foot {
+          width: 100%;
+          height: 280px;
+          float: left;
+          position: relative;
+          top: 200%;
+        }
+
+        .mobile-foot-row {
+          width: 100%;
+          height: auto;
+          float: left;
+        }*/
+
 
         /*.topnav-mini {
           background-color: purple;
