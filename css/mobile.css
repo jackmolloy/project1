@@ -231,7 +231,7 @@
         }
 
         .text-bar {
-          height: 60px;
+          height: 0px;
         }
 
         .arrow1 {
@@ -259,6 +259,32 @@
         }
 
 
+        /*TASK SECTION*/
+        .mobile-task {
+          width: 100%;
+          height: 280px;
+          float: left;
+          position: relative;
+          top: 2%;
+        }
+
+        .mobile-task-title {
+          width: 100%;
+        }
+
+        .mobile-task-item {
+          width: auto;
+          float: left;
+          padding-right: 5px;
+        }
+
+        .mobile-task-item2 {
+          width: 160px;
+          float: right;
+        }
+
+
+        
 
         /*.topnav-mini {
           background-color: purple;
