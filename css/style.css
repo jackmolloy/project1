@@ -84,6 +84,16 @@ p.footer-text3 {
   padding-left: 0px;
 }
 
+p.footer-text4 {
+  color: #777777;
+  font-size: 16px;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
 a.footer-link {
   color: #2498f2;
   font-weight: bold;
@@ -899,4 +909,25 @@ input[type="checkbox-1"]:checked:before {
   float: right;
   padding-left: 0px;
   margin-top: -2px;
+}
+
+.avi-pad {
+  padding-top: 4px;
+  padding-left: 25px;
+}
+
+.social-pad {
+  padding-top: 7px;
+}
+
+.right-bord {
+  border-right-style: solid;
+  border-right-color: #dddddd;
+  border-right-width: thin;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.footer1:hover {
+  background-image: url(../images/footer-fb.png);
 }
