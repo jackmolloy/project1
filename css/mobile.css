@@ -1,0 +1,154 @@
+/*Jack's Mobile CSS*/
+
+@media screen and (max-width: 640px) {
+
+        .no-mobile {
+            display:none;
+        }
+        /* "no-mobile" idea from: https://stackoverflow.com/questions/17762354/remove-element-for-certain-screen-sizes*/
+
+        .full-mobile {
+          width: 100%;
+        }
+
+        .half-mobile {
+          width: 50%;
+          float: left;
+        }
+
+        .third-mobile {
+          width: 33%;
+          float: left;
+        }
+
+        /*.topnav-mini {
+          background-color: purple;
+          height: 30px;
+          width: 50%;
+          float: left;
+        }
+
+        .topnav-buttons {
+          background-color: pink;
+          height: 30px;
+          width: 50%;
+          float: left;
+        }
+
+        .dash {
+          background-color: red;
+          height: 50px;
+          text-align: center;
+          width: 50%;
+          float: left;
+        }
+
+        .mobile-bar1 {
+          width: 30%;
+          float: left;
+        }
+
+        .mobile-bar2 {
+          width: 60%;
+          float: left;
+        }
+
+        .mobile-bar3 {
+          width: 10%;
+          float: left;
+        }
+
+        .container-task {
+          width: 100%;
+          background-color: orange;
+          height: 150px;
+          float: left;
+        }
+
+        .container-analytics {
+          width: 100%;
+          background-color: brown;
+          height: 180px;
+          float: right;
+        }
+
+        .container-rec {
+          width: 100%;
+          background-color: gray;
+          height: 300px;
+          float: left;
+        }
+
+        .container-contacts {
+          width: 100%;
+          background-color: teal;
+          height: 170px;
+          float: right;
+        }
+
+        .container-callout {
+          width: 100%;
+          background-color: violet;
+          height: 100px;
+          float: right;
+        }
+
+        .container-ads {
+          width: 100%;
+          background-color: blue;
+          height: 500px;
+          float: left;
+        }
+
+        .container-ad1 {
+          width: 100%;
+          background-color: white;
+          height: 150px;
+          margin: 25px 0;
+          float: left;
+        }
+
+        .container-ad2 {
+          width: 100%;
+          background-color: white;
+          height: 150px;
+          margin: 25px 0;
+          float: left;
+        }
+
+        .container-ad3 {
+          width: 100%;
+          background-color: white;
+          height: 150px;
+          margin: 25px 0;
+          float: left;
+        }
+
+        .container-foot1 {
+          width: 100%;
+          height: 30px;
+          float: left;
+          padding: none;
+          margin-top: 20px;
+          background-color: gray;
+        }
+
+        .container-foot2 {
+          width: 50%;
+          height: 30px;
+          float: left;
+          padding: none;
+          margin-top: 20px;
+          background-color: gray;
+        }
+
+        .container-foot3 {
+          width: 50%;
+          height: 30px;
+          float: left;
+          padding: none;
+          margin-top: 20px;
+          background-color: gray;
+        }*/
+
+}
