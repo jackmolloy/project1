@@ -260,8 +260,30 @@ li {
 .dash-right {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  padding-left: 40px;
 }
 /*rounded corners came from: https://www.w3schools.com/css/css3_borders.asp*/
+
+
+.input-group {
+  margin-top: 17px;
+  margin-right: 10px;
+  height: 33px;
+  width: 258px;
+}
+
+
+.input-group-btn {
+  background-color: transparent;
+  margin-left: -30px;
+}
+
+.input-group-btn:not(:first-child)>.btn, .input-group-btn:not(:first-child)>.btn-group {
+  background-color: transparent;
+  background-image: url(../search.png);
+  padding: 0px;
+  z-index: 100;
+}
 
 /*TEXT BAR AND GRADIENT BG*/
 .container-grad {
@@ -293,7 +315,7 @@ li {
   margin-top: 15px;
   float: left;
   padding-right: 0px;
-  width: 73%;
+  width: 70%;
   text-align: left;
 }
 
@@ -305,7 +327,7 @@ li {
   margin-top: 15px;
   float: left;
   padding-right: 0px;
-  width: 9.4%;
+  width: 12%;
   text-align: left;
 }
 
@@ -322,6 +344,24 @@ li {
   height: 60px;
 }
 
+.arrow1 {
+  padding-top: 12px;
+  padding-left: 25%;
+  padding-right: 5px;
+}
+
+.arrow1:hover {
+  transform: scale(1.1);
+}
+
+.arrow2 {
+  padding-top: 12px;
+  padding-right: 23%;
+}
+
+.arrow2:hover {
+  transform: scale(1.1);
+}
 
 /*TASK MENU*/
 .container-task {
