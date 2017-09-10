@@ -463,6 +463,10 @@ li {
 
 
 /*ANALYTICS SECTION*/
+.mobile-chart {
+  display: none;
+}
+
 .container-analytics {
   width: 66%;
   background-color: white;
