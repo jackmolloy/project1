@@ -240,18 +240,24 @@
           padding-right: 5px;
         }
 
-        .arrow1:hover {
-          transform: scale(1.1);
-        }
-
         .arrow2 {
           padding-top: 12px;
           padding-right: 23%;
         }
 
-        .arrow2:hover {
-          transform: scale(1.1);
+        /*random ad*/
+        .container-ad3 {
+          transform: scale(0.8);
+          width: 33%;
+          height: 164px;
+          margin: 30px auto;
+          float: left;
+          position: absolute;
+          top: 49%;
+          right: 34%;
+          z-index: 103;
         }
+
 
 
         /*.topnav-mini {
