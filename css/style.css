@@ -54,6 +54,41 @@ p.text-bar-text {
   padding-left: 10px;
 }
 
+p.footer-text {
+  color: #777777;
+  font-size: 14px;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
+p.footer-text2 {
+  color: #777777;
+  font-size: 14px;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+}
+
+p.footer-text3 {
+  color: #777777;
+  font-size: 10px;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
+a.footer-link {
+  color: #2498f2;
+  font-weight: bold;
+}
+
 
 h1 {
   font-family: Myriad Pro, sans-serif;
@@ -810,29 +845,58 @@ input[type="checkbox-1"]:checked:before {
 
 
 /*FOOTER*/
+
+
 .container-foot1 {
   width: 33%;
-  height: 30px;
+  /*height: 30px;*/
   float: left;
   padding: none;
-  margin-top: 20px;
-  background-color: gray;
+  margin-top: 0px;
+  background-image: url(../images/footer-bg.png);
+  height: 49px;
+  padding-top: 10px;
+  border-right-style: solid;
+  border-right-color: #dddddd;
+  border-right-width: thin;
 }
 
 .container-foot2 {
-  width: 33%;
-  height: 30px;
+  width: 34%;
+  /*height: 30px;*/
   float: left;
   padding: none;
-  margin-top: 20px;
-  background-color: gray;
+  margin-top: 0px;
+  background-image: url(../images/footer-bg.png);
+  height: 49px;
+  padding-top: 12px;
+  border-right-style: solid;
+  border-right-color: #dddddd;
+  border-right-width: thin;
 }
 
 .container-foot3 {
   width: 33%;
-  height: 30px;
+  /*height: 30px;*/
   float: left;
   padding: none;
-  margin-top: 20px;
-  background-color: gray;
+  margin-top: 0px;
+  background-image: url(../images/footer-bg.png);
+  height: 49px;
+}
+
+.middle-text {
+  border-left-style: solid;
+  border-left-color: #dddddd;
+  border-left-width: thin;
+  border-right-style: solid;
+  border-right-color: #dddddd;
+  border-right-width: thin;
+  text-align: center;
+}
+
+.footer-arrow {
+  float: right;
+  padding-left: 0px;
+  margin-top: -2px;
 }
