@@ -45,6 +45,15 @@ p.rec-big {
   margin-top: -4px;
 }
 
+p.text-bar-text {
+  color: #777777;
+  font-size: 14px;
+  font-family: 'Myriad Pro', sans-serif;
+  text-align: left;
+  padding-top: 14px;
+  padding-left: 10px;
+}
+
 
 h1 {
   font-family: Myriad Pro, sans-serif;
@@ -272,7 +281,7 @@ li {
   margin-top: 15px;
   margin-left: 15px;
   float: left;
-  width: 13%;
+  width: 15%;
   text-align: left;
 }
 
@@ -284,7 +293,7 @@ li {
   margin-top: 15px;
   float: left;
   padding-right: 0px;
-  width: 75%;
+  width: 73%;
   text-align: left;
 }
 
@@ -338,6 +347,10 @@ li {
   filter: grayscale(1) opacity(0.55);
 }
 /*https://www.w3schools.com/cssref/css3_pr_filter.asp*/
+
+.task-row-bottom {
+  border-bottom: none;
+}
 
 .task-text-box {
   padding-top: 9px;
@@ -568,6 +581,12 @@ input[type="checkbox-1"]:checked:before {
   border-bottom-style: dotted;
   border-bottom-color: #eeeeee;
   border-bottom-width: thin;
+  filter: grayscale(0) opacity(1);
+  transition: .05s ease-in-out;
+}
+
+.rec-row:hover {
+  filter: grayscale(1) opacity(0.55);
 }
 
 
