@@ -224,29 +224,9 @@ h4.contact2-orange {
   right: 0%;
 }
 
-/*.topnav-icon1 {
-  float: right;
-  text-align: right;
-  height: 40px;
-  padding-top: 5px;
-  padding-right: 50px;
-  padding-left: 0px;
-  border-left-style: solid;
-  border-left-color: #dddddd;
-  border-left-width: thin;
+.icon-hover:hover {
+  transform: scale(1.1);
 }
-
-.topnav-icon2 {
-  float: right;
-  text-align: right;
-  height: 40px;
-  width: 40px;
-  padding-top: 5px;
-  padding-left: 0px;
-  border-left-style: solid;
-  border-left-color: #dddddd;
-  border-left-width: thin;
-}*/
 
 /*HEADER AND ICONS*/
 ul {
@@ -355,6 +335,7 @@ li {
   padding: 0px;
   z-index: 100;
 }
+
 
 /*TEXT BAR AND GRADIENT BG*/
 .container-grad {
