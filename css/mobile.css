@@ -25,6 +25,14 @@
           float: left;
         }
 
+        .no-left-pad-mobile {
+          padding-left: 0px;
+        }
+
+        .no-right-pad {
+          padding-right: 5px;
+        }
+        /*THIS IS JUST A SMALL HACK FOR FOOTER ELEMENT IN MOBILE*/
 
         /*MOBILE DASHBOARD*/
         /*.sprite-dash-green {
@@ -503,6 +511,22 @@
           background-color: #fcfcfc;
         }
 
+        .mobile-foot-row2 {
+          width: 100%;
+          height: auto;
+          float: left;
+          margin-top: 425px;
+          padding-top: 0px;
+          background-color: #fcfcfc;
+        }
+
+        p.footer-text3 {
+          width: auto;
+          float: left;
+          padding-left: 5px;
+          text-align: center;
+        }
+
         p.footer-text2 {
           width: 33%;
           float: left;
@@ -517,28 +541,74 @@
           text-align: left;
         }
 
+        .container-foot {
+          width: 100%;
+        }
+
         .container-foot1 {
           background-color: #fcfcfc;
           border-right-style: solid;
           border-right-color: #dddddd;
           border-right-width: thin;
+          background-image: none;
+          width: 20%;
+          height: 93px;
         }
 
         .container-foot2 {
-          width: 34%;
+          width: 47%;
           /*height: 30px;*/
           float: left;
           background-color: #fcfcfc;
           border-right-style: solid;
           border-right-color: #dddddd;
           border-right-width: thin;
+          background-image: none;
+          height: 93px;
         }
 
         .container-foot3 {
           width: 33%;
           /*height: 30px;*/
-          float: left;
+          float: right;
           background-color: #fcfcfc;
+          background-image: none;
+          height: 93px;
+        }
+
+        .middle-text {
+          border: none;
+          border-right-width: thin;
+          text-align: center;
+          width: 20%;
+          float: left;
+        }
+
+        .footer-arrow {
+          float: right;
+          padding-left: 0px;
+          margin-top: 0px;
+          text-align: center;
+        }
+
+        .avi-pad {
+          padding-left: 5px;
+          padding-right: 0px;
+        }
+
+        .right-bord {
+          padding-right: 0px;
+          border-right-width: 0px;
+          float: right;
+          position: relative;
+          top: -45px;
+          right: -52px;
+        }
+
+        .social-pad {
+          padding: 0px;
+          margin-top: -35px;
+          padding-left: 5px;
         }
 
 
